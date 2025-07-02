@@ -41,7 +41,7 @@ const Hero = () => {
             <div className="relative group">
               <div className="absolute -inset-2  rounded-2xl blur opacity-75 group-hover:opacity-100 transition-all duration-500 animate-tilt"></div>
               <img
-                src="/src/assets/profile_photo.png"
+                src="profile_photo.png"
                 alt="Profile"
                 className="relative rounded-2xl w-full max-w-md mx-auto transform transition-all duration-500 group-hover:-translate-y-2"
               />
