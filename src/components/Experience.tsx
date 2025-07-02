@@ -11,38 +11,40 @@ export const Experience = () => {
     {
       title: "Full Stack Developer",
       company: "Intelsoft Technology",
-      period: "Jan 2022 - Present",
+      period: "Jan 2024 – Present",
       roles: [
-        "Developed claim management systems with secure authentication",
-        "Built RESTful APIs for data processing and reporting",
-        "Implemented real-time data flows using WebSockets",
-        "Optimized database queries for performance improvements"
+        "Engineered claim management systems with secure authentication flows",
+        "Developed RESTful APIs for efficient data processing and reporting",
+        "Implemented real-time data synchronization using WebSockets",
+        "Optimized database queries, improving performance and scalability"
       ],
       technologies: ["Java", "React", "PostgreSQL", "Firebase", "Node.js"]
     },
     {
-      title: "Frontend Developer",
-      company: "Tech Solutions Inc.",
-      period: "Jun 2020 - Dec 2021",
+      title: "Software Developer (Freelance)",
+      company: "Upwork",
+      period: "Jun 2022 – Present",
       roles: [
-        "Developed responsive web applications using React",
-        "Collaborated with designers to implement UI/UX improvements",
-        "Integrated third-party APIs for payment processing",
-        "Improved application performance by 40% through code optimization"
+        "Built responsive web applications with React and TypeScript",
+        "Collaborated with designers to enhance UI/UX",
+        "Integrated third-party APIs for seamless payment processing",
+        "Boosted application performance by 40% through code optimization",
+        "Debugged and resolved issues in production applications",
+        "Maintained and refactored legacy codebases",
+        "Automated data gathering for course research using custom scripts"
       ],
-      technologies: ["React", "TypeScript", "Tailwind CSS", "Redux"]
+      technologies: ["React", "TypeScript", "Python", "Java", "Node.js"]
     },
     {
-      title: "Junior Developer",
-      company: "Digital Creations",
-      period: "Aug 2018 - May 2020",
+      title: "Founder & Lead Developer",
+      company: "DarealGames",
+      period: "Aug 2023 – Present",
       roles: [
-        "Assisted in building and maintaining web applications",
-        "Fixed bugs and implemented feature requests",
-        "Participated in code reviews and team meetings",
-        "Wrote unit tests for critical application components"
+        "Designed and launched a gaming platform for indie developers",
+        "Implemented user authentication and game management modules",
+        "Developed arcade-style games using libGDX and Unity"
       ],
-      technologies: ["JavaScript", "HTML/CSS", "PHP", "MySQL"]
+      technologies: ["Java", "C#", "libGDX", "Unity", "PostgreSQL", "Android", "Google Play Services"]
     }
   ];
 

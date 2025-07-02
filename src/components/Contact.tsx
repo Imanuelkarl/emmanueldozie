@@ -1,4 +1,23 @@
-export const Contact = () => (
+//import emailjs from 'emailjs-com';
+//import { useRef } from 'react';
+export const Contact = () => {
+  {/*const formRef = useRef<HTMLFormElement>(null);
+
+  {/*const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+
+    if (formRef.current) {
+      emailjs.sendForm('your_service_id', 'your_template_id', formRef.current, 'your_public_key')
+        .then(() => {
+          alert('Message sent successfully!');
+          (e.target as HTMLFormElement).reset(); // clear form
+        }, () => {
+          alert('Failed to send. Please try again later.');
+        });
+    }
+  };*/}
+  return(
+  
   <section id="contact" className="py-28 px-4 max-w-4xl mx-auto">
     <div className="text-center mb-16">
       <h2 className="text-4xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-blue-500">
@@ -60,43 +79,37 @@ export const Contact = () => (
         </div>
       </div>
 
-      <div className="md:w-1/2">
-        <form className="space-y-4">
+      {/*<div className="md:w-1/2">
+        <form ref={formRef} onSubmit={sendEmail} className="space-y-4">
           <div className="space-y-2">
             <label htmlFor="name" className="block text-sm font-medium text-gray-300">Name</label>
-            <input 
-              type="text" 
-              id="name" 
+            <input name="name" type="text" required id="name"
               className="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 transition"
               placeholder="Your name"
             />
           </div>
           <div className="space-y-2">
             <label htmlFor="email" className="block text-sm font-medium text-gray-300">Email</label>
-            <input 
-              type="email" 
-              id="email" 
+            <input name="email" type="email" required id="email"
               className="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 transition"
               placeholder="your.email@example.com"
             />
           </div>
           <div className="space-y-2">
             <label htmlFor="message" className="block text-sm font-medium text-gray-300">Message</label>
-            <textarea 
-              id="message" 
-              rows={5}
+            <textarea name="message" required id="message" rows={5}
               className="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 transition"
               placeholder="Your message here..."
             ></textarea>
           </div>
-          <button 
-            type="submit" 
+          <button type="submit"
             className="w-full py-3 px-6 bg-gradient-to-r from-purple-600 to-blue-500 rounded-lg font-medium hover:shadow-lg hover:shadow-purple-500/30 transition-all"
           >
             Send Message
           </button>
         </form>
-      </div>
+      </div>*/}
     </div>
   </section>
 );
+};

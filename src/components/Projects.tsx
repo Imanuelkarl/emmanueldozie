@@ -1,5 +1,9 @@
 import claimsPortalImg from '../assets/claims-portal.png';
 import giftyfyImg from '../assets/giftyfy.png';
+import timeAttendanceImg from '../assets/time-attendance.png';
+import bizzLandingImg from '../assets/bizzflowz.png';
+import snakeCrackerImg from '../assets/snake-crackers.png';
+import zombieShooterImg from '../assets/zombie-game.png';
 
 interface Project {
   title: string;
@@ -15,23 +19,46 @@ export const Projects = () => {
       title: 'Claims Management Portal',
       image: claimsPortalImg,
       description: 'A comprehensive system for processing insurance claims with real-time tracking and analytics.',
-      technologies: ['React', 'Node.js', 'PostgreSQL', 'Firebase'],
-      link: '#'
+      technologies: ['React', 'Node.js', 'MySQL', 'Java','Spring Boot', 'GraphQL'],
+      link: 'https://claims.intelsoftgroup.com'
     },
     {
       title: 'Giftyfy E-commerce',
       image: giftyfyImg,
-      description: 'An e-commerce platform specializing in personalized gifts with AI recommendations.',
-      technologies: ['Next.js', 'TypeScript', 'MongoDB', 'Stripe'],
+      description: 'A custom gifting platform that enables vendors to upload products that an organization can purchase for their  clients.',
+      technologies: ['HTML','CSS','GraphQL', 'JavaScript', 'Azure Active Directory', 'Java', 'MySQL'],
+      link: 'https://scibgiftportal.ddns.net'
+    },
+    {
+      title: 'Time Attendance System',
+      image: timeAttendanceImg,
+      description: 'A productivity application for tracking employee attendance and hours worked.',
+      technologies: ['HTML', 'CSS', 'JavaScript', 'Java', 'PostgreSQL','Rest API'],
       link: '#'
     },
     {
-      title: 'Task Management App',
-      image: claimsPortalImg,
-      description: 'Productivity application with team collaboration features and progress tracking.',
-      technologies: ['React Native', 'GraphQL', 'Firebase'],
+      title: 'BizzFlowz Landing Page',
+      image: bizzLandingImg,
+      description: 'A custom landing page for a business showcasing its services and products.',
+      technologies: ['React', 'Tailwind CSS', 'TypeScript', 'HTML', 'CSS'],
+      link: '#'
+    },
+    {
+      title: 'Snake Crackers Game',
+      image: snakeCrackerImg,
+      description: 'A fun arcade-style game built with libGDX, featuring classic snake gameplay with a twist.',
+      technologies: ['Java', 'libGDX', 'Android'],
+      link: '#'
+    },
+    {
+      title: 'Zombie Shooter Game',
+      image: zombieShooterImg,
+      description: 'An action-packed zombie shooter game developed using Unity, featuring immersive gameplay and graphics.',
+      technologies: ['C#', 'Unity', 'PostgreSQL'],
       link: '#'
     }
+
+
   ];
 
   return (

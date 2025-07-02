@@ -1,4 +1,6 @@
 const Hero = () => {
+  //Former style for image
+  //bg-gradient-to-r from-purple-600 to-blue-500
   return (
     <section className="min-h-screen flex items-center justify-center px-4 relative overflow-hidden">
       <div className="absolute inset-0 overflow-hidden">
@@ -37,7 +39,7 @@ const Hero = () => {
           
           <div className="md:w-1/2 mt-12 md:mt-0" data-aos="fade-left">
             <div className="relative group">
-              <div className="absolute -inset-2 bg-gradient-to-r from-purple-600 to-blue-500 rounded-2xl blur opacity-75 group-hover:opacity-100 transition-all duration-500 animate-tilt"></div>
+              <div className="absolute -inset-2  rounded-2xl blur opacity-75 group-hover:opacity-100 transition-all duration-500 animate-tilt"></div>
               <img
                 src="/src/assets/profile_photo.png"
                 alt="Profile"
