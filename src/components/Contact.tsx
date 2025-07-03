@@ -1,13 +1,13 @@
-//import emailjs from 'emailjs-com';
-//import { useRef } from 'react';
+import emailjs from 'emailjs-com';
+import { useRef } from 'react';
 export const Contact = () => {
-  {/*const formRef = useRef<HTMLFormElement>(null);
+  const formRef = useRef<HTMLFormElement>(null);
 
-  {/*const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
+  const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
     if (formRef.current) {
-      emailjs.sendForm('your_service_id', 'your_template_id', formRef.current, 'your_public_key')
+      emailjs.sendForm('service_u0uf3u7', 'template_ehm9wal', formRef.current, 'dCwMP_zmgPxrQl_Bj')
         .then(() => {
           alert('Message sent successfully!');
           (e.target as HTMLFormElement).reset(); // clear form
@@ -15,7 +15,7 @@ export const Contact = () => {
           alert('Failed to send. Please try again later.');
         });
     }
-  };*/}
+  };
   return(
   
   <section id="contact" className="py-28 px-4 max-w-4xl mx-auto">
@@ -79,7 +79,7 @@ export const Contact = () => {
         </div>
       </div>
 
-      {/*<div className="md:w-1/2">
+      <div className="md:w-1/2">
         <form ref={formRef} onSubmit={sendEmail} className="space-y-4">
           <div className="space-y-2">
             <label htmlFor="name" className="block text-sm font-medium text-gray-300">Name</label>
@@ -108,7 +108,7 @@ export const Contact = () => {
             Send Message
           </button>
         </form>
-      </div>*/}
+      </div>
     </div>
   </section>
 );
